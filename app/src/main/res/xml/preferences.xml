@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:defaultValue="0"
+        android:dialogTitle="ListPreference"
+        android:entries="@array/list_pref_entries"
+        android:entryValues="@array/list_pef_values"
+        android:key="list_preference_key"
+        android:summary="Summary"
+        android:title="Title" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:summary="Summary"
+        android:key="check_box_preference_key"
+        android:title="Title" />
+</androidx.preference.PreferenceScreen>
